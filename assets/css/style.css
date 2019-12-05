@@ -10,8 +10,11 @@ bottom: 0;
 width: 100%;
 text-align: center;
 }
-
-.form-control{
-display:inline-block;
-float:left;
+.card-1{
+  background-image:url("../images/Apple.png");
+  width:100px;
+}
+.card-2{
+  background-image:url("../images/Flag.png");
+  width:100px;
 }
