@@ -3,6 +3,10 @@ body{
   font-family:Georgia, 'Times New Roman', Times, serif;
   background-image:url("../images/criss-cross.png");
 }
+
+main.container {
+ width: 90%; 
+}
 hr{
   border-top-width: 2px;
 }
@@ -14,23 +18,18 @@ width: 100%;
 text-align: center;
 margin-top: 20px;
 }
-.card-1{
-  background-image:url("../images/Apple.png");
-  width:100px;
+.card-img {
+  width: 200px;
 }
-.card-2{
-  background-image:url("../images/Flag.png");
-  width:100px;
+
+.card-text {
+  width: 200px;
 }
-.card-3{
-  background-image:url("../images/mario.png");
-  width: 100px;
-}
-.card-4{
-  background-image: url("../images/web design.png");
-  width:100px;
-}
-.card-5{
-  background-image: url("../images/Tbilisi\ My\ City.jpg");
-  width:100px;
+
+.card-text{
+  background-color:teal;
+  text-align:center;
+  margin:0;
+  padding:5px;
+  
 }
